@@ -2,7 +2,7 @@ MapCodec to fix mongoDB driver issue `Maps MUST have string keys, found class X 
 
 Based on [Yuna Braska's solution](https://stackoverflow.com/a/67849755) with additional handling of codecs that do not encode/decode BsonString by using PropertyEditors
 
-###Usage:
+### Usage:
 
 ```java
 import me.benjinguyen.mongodb.bson.codec.MapCodec;
